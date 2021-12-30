@@ -3,13 +3,13 @@ Ce projet est fait pour ëtre utilisé comme un service permettant d'envoyer des
 
 # Configuration
 Pour pouvoir envoyer les mails il faut:
-- Créer un fichier __.env__ à la racine du projet
-- Configurer le fichier .env en fonction du serveur SMTP choisi
-    APP_ENV = "development"
-    SMTP_USER=""
-    SMTP_PASSWORD=""
-    SMTP_HOST=""
-    SMTP_PORT=""
+- Créer un fichier __.env__ à la racine du projet ou renommer le __.env.example__ en .env et le configurer
+- Configurer le fichier .env en fonction du serveur SMTP choisi<br>
+    APP_ENV = "development"<br>
+    SMTP_USER=""<br>
+    SMTP_PASSWORD=""<br>
+    SMTP_HOST=""<br>
+    SMTP_PORT=""<br>
 - Lancer votre serveur en local waitress ou gunicorn et tester
   
 # Test
