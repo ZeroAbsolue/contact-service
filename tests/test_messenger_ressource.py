@@ -1,7 +1,7 @@
 import requests
 import falcon
 
-def test_message_ressource_post():
+def test_messenger_ressource_post():
     payload = {
         'sender': 'ianb@colorstudy.com',
         'receiver': 'nkouekamwilfried@gmail.com',

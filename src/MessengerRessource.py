@@ -3,7 +3,7 @@ import json
 from .Messenger import Messenger
 
 
-class MessageRessource:
+class MessengerRessource:
     def on_post(self, req, resp):
         sender = req.media.get('sender')
         receiver = req.media.get('receiver')

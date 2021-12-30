@@ -1,8 +1,8 @@
 import falcon
 
-from .MessageRessource import MessageRessource
+from .MessengerRessource import MessengerRessource
 
 app=application =  falcon.App()
-sended_mail = MessageRessource()
+sended_mail = MessengerRessource()
 
 app.add_route('/send_mail',sended_mail)
