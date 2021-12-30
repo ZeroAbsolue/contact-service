@@ -13,6 +13,6 @@ Pour pouvoir envoyer les mails il faut:
 - Lancer votre serveur en local waitress ou gunicorn et tester
   
 # Test
-Pour tester, exécuter la commande __pytests -s__
+Pour tester, exécuter la commande __pytests -s__<br>
 Cette commande execute le test unitaire de la fonction send_email et les tests d'intégration sur la route post qui permet d'envoyer le mail
   
