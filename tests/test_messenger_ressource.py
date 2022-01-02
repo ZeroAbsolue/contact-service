@@ -7,6 +7,6 @@ def test_messenger_ressource_post():
         'receiver': 'nkouekamwilfried@gmail.com',
         'subject': 'Test api function',
         'message': 'How is it going?'}
-    response = requests.post('http://localhost:8000/send_mail',json=payload)
+    response = requests.post('http://localhost:8000/api/send_mail',json=payload)
     assert response.status_code == 200
     assert response.json()['message'] == 'Succes'
