@@ -20,8 +20,8 @@ class Messenger:
         return "from %s to %s subject %s message %s" % (self.sender, self.receiver, self.subject, self.message)
 
     def send_mail(self):
-        msg = 'To: %s\nFrom: %s\nSubject: %s\n\n%s' % (
-            self.receiver, self.sender, self.subject, self.message)
+        msg = 'To: %s\nFrom: %s\nSubject: %s\n\nSender: %s\n\n%s' % (
+            self.receiver, self.sender, self.subject, self.sender, self.message)
         server = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
         server.ehlo()
         server.starttls()
