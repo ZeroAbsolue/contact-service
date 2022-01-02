@@ -6,9 +6,9 @@ Pour pouvoir envoyer les mails il faut:
 - Cloner le projet
 - installer et pip
 - puis taper les commandes:
-    pip install flake8 pytest requests falcon virtualenv 
-    pip3 install falcon
-    pip install python-decouple
+    pip install flake8 pytest requests falcon virtualenv <br>
+    pip3 install falcon<br>
+    pip install python-decouple<br>
 
 - Créer un fichier __.env__ à la racine du projet ou renommer le __.env.example__ en .env et le configurer
 - Configurer le fichier .env en fonction du serveur SMTP choisi<br>
