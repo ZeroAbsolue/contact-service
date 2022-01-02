@@ -16,3 +16,13 @@ Pour pouvoir envoyer les mails il faut:
 Pour tester, exécuter la commande __pytests -s__<br>
 Cette commande execute le test unitaire de la fonction send_email et les tests d'intégration sur la route post qui permet d'envoyer le mail
   
+
+# Configuration en prod
+Cloner le projet
+installe et pip
+puis taper pip install flake8 pytest requests falcon virtualenv 
+pip3 install falcon
+pip install python-decouple
+
+Utilise ce tutoriel pour servir l'application en production
+https://www.digitalocean.com/community/tutorials/how-to-deploy-falcon-web-applications-with-gunicorn-and-nginx-on-ubuntu-16-04
